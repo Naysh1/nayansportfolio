@@ -338,6 +338,10 @@ footer {
     .firstSection{
         height: 40vh;
     }
+
+    footer h3{
+        width: 50px;
+    }
     
     .footer {
         font-size: .7rem;
@@ -346,6 +350,7 @@ footer {
 
     .footer svg{
         height: 15px;
+        width: 30px;
     }
     .project{
         height: 20vh;
