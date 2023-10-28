@@ -138,7 +138,7 @@ main hr {
 
 footer {
     background-color: #190d27;
-
+    position: relative;
 }
 
 .footer {
@@ -248,4 +248,106 @@ footer {
 
 .contact ul a:hover{
     color: purple;
+}
+
+@media only screen and (max-width:700px){
+
+    nav{
+        flex-basis: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    nav ul {
+        flex-basis: 100%;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        z-index: 2;
+        background-color: #36145e;
+    }
+
+    nav ul li{
+        flex-basis: 100%;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .leftSection{
+        width: 100%;
+        flex-basis: 100%;
+        margin-left: 15px;
+        font-size: 1.5rem;
+    }
+
+    
+
+    .rightSection{
+        flex-basis: 50%;
+      
+    }
+
+    main hr {
+        border: 0;
+        height: 1.5px;
+        background: #a77db4;
+        margin: 40px 80px;
+    }
+
+    
+
+    .project{
+        height: 100%;
+        width: 50%;
+        padding: 0;
+        align-items: left;
+    }
+    .project .text-dec img{
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        
+    }
+    main hr{
+        margin: 10px;
+    }
+    
+    .secondSection h1{
+        font-size: 1.5rem;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .project a{
+        font-size: .9rem;
+        
+    }
+    .project .text-dec {
+        height: 15%;
+    }
+    .button .btn-text{
+        margin: 3px;
+        font-size: .8rem;
+    }
+
+    .secondSection{
+        height: 68vh;
+    }
+    
+    .firstSection{
+        height: 40vh;
+    }
+    
+    .footer {
+        font-size: .7rem;
+        padding: 10px;
+    }
+
+    .footer svg{
+        height: 15px;
+    }
+    .project{
+        height: 20vh;
+    }
 }
